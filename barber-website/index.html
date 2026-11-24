@@ -182,45 +182,172 @@
     </section>
 
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
+   <!-- Contact / Booking Section -->
+<section id="contact" class="contact">
 
-        <div class="section-heading">
-            <p>GET IN TOUCH</p>
-            <h2>Book Your Appointment</h2>
+    <div class="section-heading">
+        <p>GET IN TOUCH</p>
+        <h2>Book Your Appointment</h2>
+    </div>
+
+    <div class="booking-container">
+
+        <!-- Booking Form -->
+        <div class="booking-form">
+
+            <form id="bookingForm">
+
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </div>
+
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        placeholder="08101398662"
+                        required
+                    >
+                </div>
+
+
+                <div class="form-group">
+                    <label for="service">Choose Service</label>
+
+                    <select id="service" required>
+
+                        <option value="">
+                            Select a service
+                        </option>
+
+                        <option value="Classic Haircut">
+                            Classic Haircut - ₦5,000
+                        </option>
+
+                        <option value="Beard Grooming">
+                            Beard Grooming - ₦3,000
+                        </option>
+
+                        <option value="Premium Package">
+                            Premium Package - ₦8,000
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="date">
+                            Preferred Date
+                        </label>
+
+                        <input
+                            type="date"
+                            id="date"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="time">
+                            Preferred Time
+                        </label>
+
+                        <input
+                            type="time"
+                            id="time"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Additional Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        rows="4"
+                        placeholder="Anything we should know?"
+                    ></textarea>
+
+                </div>
+
+
+                <button type="submit" class="submit-btn">
+                    Book Appointment
+                </button>
+
+            </form>
+
         </div>
 
-        <div class="contact-box">
 
-            <div>
-                <h3>Ready for a fresh look?</h3>
+        <!-- Business Information -->
+        <div class="business-info">
 
-                <p>
-                    Contact us to book your appointment today.
-                </p>
+            <h3>Elite Cuts</h3>
+
+            <p>
+                Ready for a fresh look? Send us your
+                appointment request and we'll get back to you.
+            </p>
+
+
+            <div class="info-item">
+                <span>📍</span>
+                <div>
+                    <strong>Location</strong>
+                    <p>Lagos, Nigeria</p>
+                </div>
             </div>
 
-            <div class="contact-details">
 
-                <p>📍 Lagos, Nigeria</p>
+            <div class="info-item">
+                <span>📞</span>
+                <div>
+                    <strong>Phone</strong>
+                    <p>+234 810 139 8662</p>
+                </div>
+            </div>
 
-                <p>📞 +234 810 139 8662</p>
 
-                <p>🕐 Mon - Sat: 9AM - 8PM</p>
-
+            <div class="info-item">
+                <span>🕐</span>
+                <div>
+                    <strong>Opening Hours</strong>
+                    <p>Monday - Saturday</p>
+                    <p>9:00 AM - 8:00 PM</p>
+                </div>
             </div>
 
         </div>
 
-        <a
-            href="https://wa.me/2348101398662"
-            class="whatsapp-btn"
-            target="_blank">
-            💬 Book on WhatsApp
-        </a>
+    </div>
 
-    </section>
-
+</section>
 
     <!-- Footer -->
     <footer>
